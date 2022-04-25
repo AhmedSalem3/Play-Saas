@@ -29,7 +29,9 @@ faqQuestions.forEach((q) => {
 //* animating lazy  loading with Interaction Observer;
 function scrollingAnimations() {
   let allElements = Array.from(
-    document.querySelectorAll(":is(section, footer) .container > *")
+    document.querySelectorAll(
+      ":is(section:not(section.landing), footer) .container > *"
+    )
   );
 
   lazyLoading(allElements);
