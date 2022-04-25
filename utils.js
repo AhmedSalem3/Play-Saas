@@ -21,7 +21,7 @@ function lazyLoading(elements) {
           observer.unobserve(entry.target);
         }
       }),
-    { rootMargin: "30%" }
+    { rootMargin: "60%" }
   );
 
   elements.forEach((e) => observer.observe(e));
