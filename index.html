@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="home.js" defer>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <!-- inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600&display=swap" rel="stylesheet">
+
+    <title>Home - Play</title>
+</head>
+
+<body>
+
+    <!-- START HEADER -->
+    <header>
+        <div class="container">
+
+            <a class="logo" href="#">
+                <img src="images/logo/logo-white.svg" alt="logo">
+            </a>
+
+            <nav>
+                <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+
+                <ul>
+                    <li> <a href="#">Home</a> </li>
+                    <li> <a href="#">About</a> </li>
+                    <li> <a href="#">Team</a> </li>
+                    <li> <a href="#">Contact</a> </li>
+                    <li>
+                        <span class="centered">Pages <ion-icon name="chevron-down-outline"></ion-icon></span>
+
+                        <ul>
+                            <li><a href="#">About Page</a></li>
+                            <li><a href="#">Pricing Page</a></li>
+                            <li><a href="#">Contact Page</a></li>
+                            <li><a href="#">Blog Details Page</a></li>
+                            <li><a href="#">Sign Up Page</a></li>
+                            <li><a href="./signin.html">Sign In Page</a></li>
+                            <li><a href="#">404 Page</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="sign-actions">
+                <a href="./signin.html" class="main-btn">Sign In</a>
+            </div>
+
+        </div>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- START LANDING -->
+    <section class="landing">
+        <div class="container">
+
+            <h1>
+                Open-Source Web Template for SaaS, Startup, Apps, and More
+
+            </h1>
+
+            <p>
+                Multidisciplinary Web Template Built with Your Favourite Technology - HTML Bootstrap, Tailwind and React
+                NextJS.
+            </p>
+
+            <div class="btns">
+                <a href="#" class="main-btn">Download Now</a>
+                <a href="#">Star on Github <ion-icon name="arrow-forward-outline"></ion-icon></a>
+            </div>
+
+            <div class="technologies">
+                <svg fill="none" height="100" viewBox="0 0 526 100" width="526" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <clipPath id="a">
+                        <path d="m142 20h100v60.16h-100z" />
+                    </clipPath>
+                    <clipPath id="b">
+                        <path d="m0 10h100v79.68h-100z" />
+                    </clipPath>
+                    <g fill="#fff">
+                        <path
+                            d="m472.675.0268854c-.215.0195293-.898.0878816-1.513.1367056-14.188 1.279169-27.478 8.934679-35.895 20.701109-4.687 6.5423-7.685 13.9635-8.818 21.824-.4 2.7439-.449 3.5544-.449 7.2747 0 3.7204.049 4.5308.449 7.2747 2.715 18.7579 16.063 34.5181 34.167 40.3574 3.242 1.0448 6.659 1.7576 10.546 2.1873 1.513.166 8.055.166 9.569 0 6.708-.7421 12.391-2.4021 17.996-5.2632.86-.4394 1.026-.5566.908-.6542-.078-.0586-3.739-4.9702-8.134-10.9072l-7.987-10.7899-10.009-14.813c-5.507-8.1438-10.038-14.8033-10.077-14.8033-.039-.0097-.078 6.5717-.098 14.608-.029 14.0709-.039 14.6372-.214 14.9692-.254.4785-.45.6738-.86.8886-.312.1562-.586.1855-2.06.1855h-1.689l-.45-.2831c-.293-.1856-.507-.4297-.654-.7129l-.205-.4394.02-19.5781.029-19.588.303-.3808c.156-.2051.488-.4687.722-.5956.401-.1953.557-.2149 2.246-.2149 1.992 0 2.324.0782 2.842.6445.146.1562 5.565 8.3195 12.049 18.1525 6.484 9.8331 15.35 23.2595 19.705 29.8506l7.91 11.9813.4-.2637c3.545-2.3044 7.294-5.5854 10.263-9.003 6.317-7.2551 10.389-16.1019 11.756-25.5346.401-2.7439.45-3.5543.45-7.2747 0-3.7203-.049-4.5308-.45-7.2747-2.714-18.7579-16.062-34.51808-34.166-40.35735-3.193-1.03506-6.591-1.747878-10.4-2.177524-.937-.0976466-7.391-.205058-8.202-.1269406zm20.447 30.2119146c.469.2343.85.6835.987 1.1522.078.2539.097 5.683.078 17.9182l-.03 17.5569-3.095-4.7457-3.105-4.7456v-12.7624c0-8.2512.039-12.8894.097-13.114.157-.5468.498-.9764.967-1.2303.401-.2051.547-.2246 2.08-.2246 1.445 0 1.699.0195 2.021.1953z" />
+                        <path
+                            d="m384 49.5373c0-6.6245-8.296-12.9026-21.015-16.7958 2.935-12.9637 1.631-23.27758-4.117-26.57966-1.325-.77456-2.875-1.14146-4.566-1.14146v4.54546c.937 0 1.691.18345 2.323.52996 2.772 1.5899 3.975 7.6437 3.037 15.4301-.224 1.916-.591 3.9339-1.039 5.9926-3.995-.9783-8.357-1.7325-12.943-2.2217-2.752-3.7709-5.606-7.1953-8.48-10.1916 6.645-6.1761 12.882-9.55975 17.122-9.55975v-4.54545c-5.605 0-12.943 3.99511-20.363 10.9254-7.419-6.88952-14.757-10.84387-20.363-10.84387v4.54546c4.22 0 10.477 3.36321 17.122 9.49861-2.853 2.9963-5.707 6.4003-8.418 10.1712-4.607.4892-8.969 1.2434-12.964 2.2421-.468-2.0383-.815-4.0155-1.06-5.9111-.958-7.7864.225-13.8402 2.976-15.4505.612-.36686 1.407-.52993 2.344-.52993v-4.54545c-1.712 0-3.261.36689-4.606 1.14146-5.728 3.30207-7.012 13.59562-4.056 26.51852-12.679 3.9136-20.934 10.1712-20.934 16.7754 0 6.6245 8.296 12.9026 21.015 16.7958-2.935 12.9637-1.631 23.2776 4.117 26.5797 1.325.7745 2.875 1.1414 4.587 1.1414 5.605 0 12.943-3.9951 20.363-10.9254 7.419 6.8895 14.757 10.8439 20.362 10.8439 1.713 0 3.262-.3669 4.607-1.1415 5.728-3.3021 7.012-13.5956 4.056-26.5185 12.638-3.8932 20.893-10.1712 20.893-16.7754zm-26.539-13.5956c-.754 2.6294-1.692 5.3404-2.752 8.0514-.835-1.6307-1.712-3.2613-2.67-4.892-.937-1.6307-1.936-3.2205-2.935-4.7697 2.894.4281 5.687.958 8.357 1.6103zm-9.335 21.7081c-1.59 2.7517-3.221 5.3608-4.913 7.7864-3.037.265-6.115.4077-9.213.4077-3.078 0-6.156-.1427-9.172-.3873-1.692-2.4256-3.343-5.0143-4.933-7.7456-1.549-2.6702-2.956-5.3812-4.24-8.1126 1.264-2.7313 2.691-5.4627 4.219-8.1329 1.59-2.7517 3.221-5.3607 4.913-7.7863 3.037-.265 6.115-.4077 9.213-.4077 3.078 0 6.156.1427 9.172.3873 1.692 2.4256 3.343 5.0143 4.933 7.7456 1.549 2.6702 2.956 5.3812 4.24 8.1125-1.284 2.7314-2.691 5.4627-4.219 8.1329zm6.583-2.6498c1.101 2.7313 2.039 5.4627 2.813 8.1125-2.67.6523-5.483 1.2026-8.398 1.6307.999-1.5695 1.998-3.1798 2.936-4.8309.937-1.6306 1.814-3.2817 2.649-4.9123zm-20.668 21.7489c-1.896-1.9568-3.792-4.1378-5.667-6.5227 1.835.0816 3.71.1427 5.606.1427 1.916 0 3.811-.0407 5.666-.1427-1.834 2.3849-3.73 4.5659-5.605 6.5227zm-15.165-12.0057c-2.895-.4281-5.687-.958-8.357-1.6103.754-2.6294 1.691-5.3404 2.751-8.0514.836 1.6307 1.712 3.2613 2.67 4.892s1.937 3.2205 2.936 4.7697zm15.063-42.4175c1.895 1.9568 3.791 4.1378 5.666 6.5226-1.834-.0815-3.709-.1426-5.605-.1426-1.916 0-3.812.0407-5.667.1426 1.835-2.3848 3.731-4.5658 5.606-6.5226zm-15.084 12.0057c-.998 1.5695-1.997 3.1798-2.935 4.8309-.938 1.6306-1.814 3.2613-2.65 4.8919-1.1-2.7313-2.038-5.4627-2.813-8.1125 2.671-.6319 5.483-1.1822 8.398-1.6103zm-18.447 25.5198c-7.215-3.0779-11.883-7.1137-11.883-10.3139s4.668-7.2564 11.883-10.3139c1.753-.7542 3.669-1.4268 5.647-2.0587 1.161 3.9951 2.69 8.1533 4.586 12.4134-1.875 4.2397-3.384 8.3775-4.525 12.3522-2.018-.6319-3.934-1.3249-5.708-2.0791zm10.967 29.1276c-2.772-1.5899-3.975-7.6437-3.037-15.4301.224-1.916.591-3.9339 1.039-5.9927 3.995.9784 8.357 1.7326 12.943 2.2218 2.752 3.7709 5.606 7.1953 8.48 10.1916-6.645 6.1761-12.882 9.5597-17.122 9.5597-.917-.0203-1.692-.2038-2.303-.5503zm48.349-15.532c.958 7.7864-.225 13.8402-2.976 15.4505-.612.3669-1.407.5299-2.344.5299-4.22 0-10.477-3.3632-17.122-9.4985 2.853-2.9964 5.707-6.4004 8.418-10.1713 4.607-.4892 8.969-1.2433 12.964-2.2421.468 2.0587.835 4.0359 1.06 5.9315zm7.847-13.5956c-1.753.7542-3.669 1.4268-5.646 2.0587-1.162-3.9951-2.691-8.1533-4.586-12.4134 1.875-4.2397 3.383-8.3775 4.525-12.3522 2.018.6319 3.934 1.3249 5.728 2.0791 7.215 3.0779 11.883 7.1137 11.883 10.3139-.02 3.2002-4.688 7.2564-11.904 10.3139z" />
+                        <path
+                            d="m333.98 58.8568c5.145 0 9.315-4.1705 9.315-9.3151s-4.17-9.3151-9.315-9.3151c-5.144 0-9.315 4.1705-9.315 9.3151s4.171 9.3151 9.315 9.3151z" />
+                    </g>
+                    <g clip-path="url(#a)">
+                        <path
+                            d="m192 20.0781c-13.333 0-21.667 6.6668-25 20 5-6.6668 10.833-9.1668 17.5-7.5 3.804.9508 6.522 3.7106 9.532 6.7649 4.902 4.9761 10.575 10.7351 22.968 10.7351 13.333 0 21.667-6.6668 25-20-5 6.6668-10.833 9.1668-17.5 7.5-3.804-.9508-6.522-3.7105-9.532-6.7648-4.902-4.9762-10.575-10.7352-22.968-10.7352zm-25 30c-13.333 0-21.667 6.6668-25 20 5-6.6668 10.833-9.1668 17.5-7.5 3.804.9508 6.522 3.7106 9.532 6.7649 4.902 4.9761 10.575 10.7351 22.968 10.7351 13.333 0 21.667-6.6668 25-20-5 6.6668-10.833 9.1668-17.5 7.5-3.804-.9508-6.522-3.7105-9.532-6.7648-4.902-4.9762-10.575-10.7352-22.968-10.7352z"
+                            fill="#fff" />
+                    </g>
+                    <g clip-path="url(#b)">
+                        <path clip-rule="evenodd"
+                            d="m20.7703 10.0078c-5.7058 0-9.9279 4.9942-9.7389 10.4102.1815 5.2033-.0543 11.9424-1.75074 17.4381-1.70254 5.5111-4.57988 9.0035-9.28066 9.4517v5.061c4.70078.4492 7.57812 3.9398 9.28047 9.4517 1.69663 5.4957 1.93223 12.2348 1.75073 17.4381-.189 5.4152 4.0331 10.4102 9.7399 10.4102h58.4662c5.7059 0 9.9272-4.9942 9.7381-10.4102-.1815-5.2033.0543-11.9424 1.7508-17.4381 1.7025-5.5119 4.5728-9.0039 9.2738-9.4517v-5.061c-4.7008-.4492-7.5711-3.9398-9.2738-9.4517-1.6967-5.495-1.9323-12.2348-1.7508-17.4381.1891-5.4153-4.0322-10.4102-9.7381-10.4102h-58.4678zm47.0264 49.0365c0 7.4577-5.5627 11.9805-14.7942 11.9805h-15.7144c-.4495 0-.8806-.1786-1.1985-.4964-.3179-.3179-.4964-.749-.4964-1.1985v-38.983c0-.4495.1785-.8807.4964-1.1985.3179-.3179.749-.4964 1.1985-.4964h15.625c7.6974 0 12.7492 4.1695 12.7492 10.571 0 4.4932-3.3984 8.5157-7.7279 9.2204v.2343c5.8937.6465 9.8623 4.7286 9.8623 10.3666zm-16.5076-25.0195h-8.9602v12.6563h7.5467c5.834 0 9.0508-2.3493 9.0508-6.5483-.0006-3.9351-2.7662-6.108-7.6373-6.108zm-8.9602 17.6779v13.9475h9.2898c6.0743 0 9.2917-2.4373 9.2917-7.0178 0-4.5804-3.3077-6.9304-9.6823-6.9304h-8.8992z"
+                            fill="#fff" fill-rule="evenodd" />
+                    </g>
+                </svg>
+
+            </div>
+
+            <div class="illustartor">
+                <img src="images/hero/hero-image.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+    <!-- END LANDING -->
+
+    <!-- START FEATURES -->
+    <section class="features">
+        <div class="container">
+
+            <div class="title">
+                <p class="sub-title">Features</p>
+                <h2>Main Features Of Play</h2>
+                <p class="desc">
+                    There are many variations of passages of Lorem Ipsum available but the majority have suffered
+                    alteration in some form.
+                </p>
+            </div>
+
+
+            <div class="content">
+
+                <div class="box">
+                    <div class="icon">
+                        <svg width="35" height="35" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M44.9313 11.7H38.9188C40.5438 10.9687 41.7626 9.99374 42.2501 8.69374C42.9001 6.98749 42.2501 5.19999 40.3001 3.33124C38.1876 1.29999 35.9938 0.568738 33.8001 1.13749C29.9813 2.11249 27.4626 7.06874 26.2438 9.99374C25.1063 7.06874 22.5876 2.11249 18.6876 1.13749C16.4938 0.568738 14.3001 1.29999 12.1876 3.33124C10.2376 5.19999 9.5876 6.98749 10.2376 8.69374C10.7251 9.99374 12.0251 10.9687 13.5688 11.7H7.06885C5.0376 11.7 3.4126 13.325 3.4126 15.3562V21.5312C3.4126 23.5625 5.0376 25.1875 7.06885 25.1875H7.71885V46.2312C7.71885 48.8312 9.83135 51.025 12.5126 51.025H40.1376C42.7376 51.025 44.9313 48.9125 44.9313 46.2312V25.1875C46.9626 25.1875 48.5876 23.5625 48.5876 21.5312V15.3562C48.5063 13.325 46.8813 11.7 44.9313 11.7ZM34.5313 3.98124C34.7751 3.89999 35.0188 3.89999 35.1813 3.89999C36.1563 3.89999 37.2126 4.38749 38.2688 5.52499C38.7563 6.01249 39.8126 7.06874 39.5688 7.79999C39.0001 9.34374 33.9626 10.6437 28.9251 11.05C30.0626 8.36874 32.1751 4.54999 34.5313 3.98124ZM13.0001 7.71874C12.7563 6.98749 13.8126 5.93124 14.3001 5.44374C15.4376 4.38749 16.4126 3.81874 17.3876 3.81874C17.6313 3.81874 17.8751 3.81874 18.0376 3.89999C20.4751 4.54999 22.5063 8.28749 23.6438 10.9687C18.6063 10.5625 13.5688 9.26249 13.0001 7.71874ZM42.0063 46.2312C42.0063 47.2875 41.1126 48.1812 40.0563 48.1812H12.4313C11.3751 48.1812 10.4813 47.2875 10.4813 46.2312V25.1875H41.9251V46.2312H42.0063ZM45.6626 21.5312C45.6626 22.0187 45.3376 22.3437 44.8501 22.3437H7.06885C6.6626 22.3437 6.25635 22.0187 6.25635 21.5312V15.3562C6.25635 14.95 6.6626 14.5437 7.06885 14.5437H44.8501C45.2563 14.5437 45.6626 14.8687 45.6626 15.3562V21.5312Z"
+                                fill="white"></path>
+                        </svg>
+                    </div>
+
+                    <h3>Free and Open-Source</h3>
+
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and industry.
+                    </p>
+
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div class="box">
+                    <div class="icon">
+                        <svg width="35" height="35" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M49.8062 23.3187L43.875 17.3875C43.3063 16.8187 42.4125 16.8187 41.8438 17.3875C41.275 17.9562 41.275 18.85 41.8438 19.4187L46.9625 24.6187H27.4625V4.87498L32.5812 10.075C33.15 10.6437 34.0437 10.6437 34.6125 10.075C35.1812 9.50623 35.1812 8.61248 34.6125 8.04373L28.6812 2.11248C27.95 1.38123 26.975 0.974976 26 0.974976C24.9438 0.974976 24.05 1.38123 23.3188 2.11248L17.3875 8.04373C16.8187 8.61248 16.8187 9.50623 17.3875 10.075C17.6312 10.3187 18.0375 10.4812 18.3625 10.4812C18.6875 10.4812 19.0937 10.3187 19.3375 10.075L24.6187 4.87498V24.5375H4.95625L10.075 19.3375C10.6437 18.7687 10.6437 17.875 10.075 17.3062C9.50625 16.7375 8.6125 16.7375 8.04375 17.3062L2.1125 23.2375C0.65 24.7 0.65 27.1375 2.1125 28.6L8.04375 34.5312C8.2875 34.775 8.69375 34.9375 9.01875 34.9375C9.34375 34.9375 9.75 34.775 9.99375 34.5312C10.5625 33.9625 10.5625 33.0687 9.99375 32.5L4.79375 27.3H24.4563V47.125L19.2563 41.925C18.6875 41.3562 17.7938 41.3562 17.225 41.925C16.6563 42.4937 16.6563 43.3875 17.225 43.9562L23.1562 49.8875C23.8875 50.6187 24.8625 51.025 25.8375 51.025C26.8937 51.025 27.7875 50.6187 28.5187 49.8875L34.45 43.9562C35.0188 43.3875 35.0188 42.4937 34.45 41.925C33.8813 41.3562 32.9875 41.3562 32.4188 41.925L27.4625 47.125V27.3812H47.0438L41.8438 32.5812C41.275 33.15 41.275 34.0437 41.8438 34.6125C42.0875 34.8562 42.4938 35.0187 42.8188 35.0187C43.1438 35.0187 43.55 34.8562 43.7938 34.6125L49.725 28.6812C51.2688 27.2187 51.2687 24.7812 49.8062 23.3187Z"
+                                fill="white"></path>
+                        </svg>
+                    </div>
+
+                    <h3>Multipurpose Template</h3>
+
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and industry.
+                    </p>
+
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div class="box">
+                    <div class="icon">
+                        <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.7734 14.3281H3.82813C2.07813 14.3281 0.65625 12.9062 0.65625 11.1562V4.21094C0.65625 2.46094 2.07813 1.03906 3.82813 1.03906H10.7734C12.5234 1.03906 13.9453 2.46094 13.9453 4.21094V11.1562C13.9453 12.9062 12.5234 14.3281 10.7734 14.3281ZM3.82813 2.95312C3.17188 2.95312 2.57031 3.5 2.57031 4.21094V11.1562C2.57031 11.8125 3.11719 12.4141 3.82813 12.4141H10.7734C11.4297 12.4141 12.0313 11.8672 12.0313 11.1562V4.21094C12.0313 3.55469 11.4844 2.95312 10.7734 2.95312H3.82813Z"
+                                fill="white"></path>
+                            <path
+                                d="M31.1719 14.3281H24.2266C22.4766 14.3281 21.0547 12.9062 21.0547 11.1562V4.21094C21.0547 2.46094 22.4766 1.03906 24.2266 1.03906H31.1719C32.9219 1.03906 34.3438 2.46094 34.3438 4.21094V11.1562C34.3438 12.9062 32.9219 14.3281 31.1719 14.3281ZM24.2266 2.95312C23.5703 2.95312 22.9688 3.5 22.9688 4.21094V11.1562C22.9688 11.8125 23.5156 12.4141 24.2266 12.4141H31.1719C31.8281 12.4141 32.4297 11.8672 32.4297 11.1562V4.21094C32.4297 3.55469 31.8828 2.95312 31.1719 2.95312H24.2266Z"
+                                fill="white"></path>
+                            <path
+                                d="M10.7734 33.9609H3.82813C2.07813 33.9609 0.65625 32.5391 0.65625 30.7891V23.8438C0.65625 22.0938 2.07813 20.6719 3.82813 20.6719H10.7734C12.5234 20.6719 13.9453 22.0938 13.9453 23.8438V30.7891C13.9453 32.5391 12.5234 33.9609 10.7734 33.9609ZM3.82813 22.5859C3.17188 22.5859 2.57031 23.1328 2.57031 23.8438V30.7891C2.57031 31.4453 3.11719 32.0469 3.82813 32.0469H10.7734C11.4297 32.0469 12.0313 31.5 12.0313 30.7891V23.8438C12.0313 23.1875 11.4844 22.5859 10.7734 22.5859H3.82813Z"
+                                fill="white"></path>
+                            <path
+                                d="M31.1719 33.9609H24.2266C22.4766 33.9609 21.0547 32.5391 21.0547 30.7891V23.8438C21.0547 22.0938 22.4766 20.6719 24.2266 20.6719H31.1719C32.9219 20.6719 34.3438 22.0938 34.3438 23.8438V30.7891C34.3438 32.5391 32.9219 33.9609 31.1719 33.9609ZM24.2266 22.5859C23.5703 22.5859 22.9688 23.1328 22.9688 23.8438V30.7891C22.9688 31.4453 23.5156 32.0469 24.2266 32.0469H31.1719C31.8281 32.0469 32.4297 31.5 32.4297 30.7891V23.8438C32.4297 23.1875 31.8828 22.5859 31.1719 22.5859H24.2266Z"
+                                fill="white"></path>
+                        </svg>
+                    </div>
+
+                    <h3>High-quality Design
+                    </h3>
+
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and industry.
+
+
+                    </p>
+
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div class="box">
+                    <div class="icon">
+                        <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M29.5312 21.6562L28.6563 21.1641L29.6953 20.5625C30.7344 19.9062 31.3359 18.8125 31.2812 17.6094C31.2266 16.4063 30.625 15.3125 29.5312 14.7109L27.8906 13.7813L29.6406 12.6875C30.6797 12.0313 31.2812 10.9375 31.2266 9.73438C31.1719 8.53125 30.5703 7.4375 29.4766 6.83594L19.25 1.09375C18.2109 0.492187 16.9531 0.546875 15.9141 1.09375L5.41406 7.21875C4.375 7.82031 3.71875 8.91406 3.71875 10.1172C3.71875 11.3203 4.375 12.4141 5.41406 13.0156L7.10938 14L5.41406 14.9844C4.375 15.5859 3.71875 16.6797 3.71875 17.8828C3.71875 19.0859 4.32031 20.1797 5.41406 20.7812L6.39844 21.3281L5.46875 21.875C4.42969 22.4766 3.77344 23.5703 3.77344 24.7734C3.77344 25.9766 4.375 27.0703 5.46875 27.6719L15.9141 33.6875C16.4609 34.0156 17.0078 34.125 17.6094 34.125C18.2109 34.125 18.8125 33.9609 19.3594 33.6328L29.6953 27.2891C30.7344 26.6328 31.3359 25.5391 31.2812 24.3359C31.2266 23.2969 30.625 22.2031 29.5312 21.6562ZM5.63281 10.1172C5.63281 9.57031 5.90625 9.13281 6.34375 8.85938L16.8438 2.78906C17.0625 2.67969 17.3359 2.57031 17.5547 2.57031C17.7734 2.57031 18.0469 2.625 18.2656 2.73437L28.5469 8.47656C28.9844 8.75 29.2578 9.1875 29.3125 9.73438C29.3125 10.2812 29.0391 10.7188 28.6016 10.9922L18.3203 17.3906C17.8828 17.6641 17.2812 17.6641 16.8438 17.3906L6.39844 11.375C5.90625 11.1562 5.63281 10.6641 5.63281 10.1172ZM5.63281 17.9375C5.63281 17.3906 5.90625 16.9531 6.34375 16.6797L9.02344 15.1484L15.8594 19.0859C16.4062 19.4141 16.9531 19.5234 17.5547 19.5234C18.1562 19.5234 18.7578 19.3594 19.3047 19.0312L26.0312 14.875L28.6016 16.2969C29.0391 16.5703 29.3125 17.0078 29.3672 17.5547C29.3672 18.1016 29.0938 18.5391 28.6563 18.8125L18.3203 25.2656C17.8828 25.5391 17.2812 25.5391 16.8438 25.2656L6.39844 19.25C5.90625 18.9766 5.63281 18.4844 5.63281 17.9375ZM28.6563 25.8125L18.3203 32.2109C17.8828 32.4844 17.2812 32.4844 16.8438 32.2109L6.39844 26.1953C5.96094 25.9219 5.6875 25.4844 5.6875 24.9375C5.6875 24.3906 5.96094 23.9531 6.39844 23.6797L8.3125 22.5859L15.8594 26.9609C16.4062 27.2891 16.9531 27.3984 17.5547 27.3984C18.1562 27.3984 18.7578 27.2344 19.3047 26.9062L26.7969 22.2578L28.6563 23.2969C29.0938 23.5703 29.3672 24.0078 29.4219 24.5547C29.3672 25.0469 29.0938 25.5391 28.6563 25.8125Z"
+                                fill="white"></path>
+                        </svg>
+
+                    </div>
+
+                    <h3>All Essential Elements</h3>
+
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and industry.
+                    </p>
+
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- END FEATURES -->
+
+    <!-- START ABOUT US -->
+    <section class="about-us">
+        <div class="container">
+
+            <div class="text">
+                <p class="sec-title">About Us</p>
+
+                <h3>Brilliant Toolkit to Build Nextgen Website Faster.</h3>
+
+                <p>
+                    The main ‘thrust' is to focus on educating attendees on how to best protect highly vulnerable
+                    business applications with interactive panel discussions and roundtables led by subject matter
+                    experts.
+                </p>
+
+                <p>
+                    The main ‘thrust' is to focus on educating attendees on how to best protect highly vulnerable
+                    business applications with interactive panel.
+                </p>
+
+                <a href="#" class="main-btn">Learn More</a>
+            </div>
+
+            <div class="illustration">
+                <img src="images/about/about-image.svg" alt="">
+            </div>
+
+        </div>
+    </section>
+    <!-- END ABOUT US -->
+
+    <!-- START PRICING -->
+    <section class="pricing">
+        <div class="container">
+
+            <div class="title">
+                <p class="sub-title">Pricing Table</p>
+                <h2>Our Pricing Plan</h2>
+                <p class="desc">
+                    There are many variations of passages of Lorem Ipsum available but the majority have suffered
+                    alteration in some form.
+                </p>
+            </div>
+
+            <div class="plans">
+
+                <div class="plan">
+
+                    <div class="price-wrapper">
+                        <span class="pre-price">Starting From</span>
+                        <p class="price"><span>$</span> 19.99/mo</p>
+                    </div>
+
+                    <ul class="specs">
+                        <li> 1 User</li>
+                        <li>All UI components</li>
+                        <li>Lifetime access</li>
+                        <li>Free updates</li>
+                        <li>Use on 1 (one) project</li>
+                        <li>3 Months support</li>
+                    </ul>
+
+                    <a href="#">Purchase Now</a>
+
+                </div>
+
+                <div class="plan popular">
+
+                    <div class="price-wrapper">
+                        <span class="tag">POPULAR</span>
+                        <span class="pre-price">Starting From</span>
+                        <p class="price"><span>$</span> 19.99/mo</p>
+                    </div>
+
+                    <ul class="specs">
+                        <li> 5 User</li>
+                        <li>All UI components</li>
+                        <li>Lifetime access</li>
+                        <li>Free updates</li>
+                        <li>Use on 1 (one) project</li>
+                        <li>4 Months support</li>
+                    </ul>
+
+                    <a href="#">Purchase Now</a>
+
+                </div>
+
+                <div class="plan">
+
+                    <div class="price-wrapper">
+                        <span class="pre-price">Starting From</span>
+                        <p class="price"><span>$</span> 70.99/mo</p>
+                    </div>
+
+                    <ul class="specs">
+                        <li> 1 User</li>
+                        <li>All UI components</li>
+                        <li>Lifetime access</li>
+                        <li>Free updates</li>
+                        <li>Use on unlimited project</li>
+                        <li>3 Months support</li>
+                    </ul>
+
+                    <a href="#">Purchase Now</a>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- END PRICING -->
+
+    <!-- START FAQ -->
+    <section class="faq">
+        <div class="container">
+
+            <div class="title">
+                <p class="sub-title">FAQ</p>
+                <h2>Any Questions? Answered</h2>
+                <p class="desc">
+                    There are many variations of passages of Lorem Ipsum available but the majority have suffered
+                    alteration in some form.
+                </p>
+            </div>
+
+            <div class="content">
+
+
+                <div data-question class="content">
+
+
+                    <div class="wrapper">
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                        <p>How to use TailGrids?</p>
+                    </div>
+
+                    <p class="answer">
+                        It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research &
+                        creation
+                        of your monthly content marketing strategy that we do before writing your first blog post, Ipsum
+                        available .
+                    </p>
+
+                </div>
+
+                <div data-question class="content">
+
+
+                    <div class="wrapper">
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                        <p>Can I use this template for commercial project?</p>
+                    </div>
+
+                    <p class="answer">
+                        It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research &
+                        creation
+                        of your monthly content marketing strategy that we do before writing your first blog post, Ipsum
+                        available .
+                    </p>
+
+                </div>
+
+                <div data-question class="content">
+
+
+                    <div class="wrapper">
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                        <p>How to download icons from LineIcons?</p>
+                    </div>
+
+                    <p class="answer">
+                        It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research &
+                        creation
+                        of your monthly content marketing strategy that we do before writing your first blog post, Ipsum
+                        available .
+                    </p>
+
+                </div>
+
+                <div data-question class="content">
+
+
+                    <div class="wrapper">
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                        <p>Do you have plan to releasing Play Pro?
+
+                        </p>
+                    </div>
+
+                    <p class="answer">
+                        It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research &
+                        creation
+                        of your monthly content marketing strategy that we do before writing your first blog post, Ipsum
+                        available .
+                    </p>
+
+                </div>
+
+                <div data-question class="content">
+
+
+                    <div class="wrapper">
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                        <p>Is GrayGrids part of UIdeck?</p>
+                    </div>
+
+                    <p class="answer">
+                        It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research &
+                        creation
+                        of your monthly content marketing strategy that we do before writing your first blog post, Ipsum
+                        available .
+                    </p>
+
+                </div>
+
+                <div data-question class="content">
+
+
+                    <div class="wrapper">
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                        <p>Where and how to host this template?</p>
+                    </div>
+
+                    <p class="answer">
+                        It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research &
+                        creation
+                        of your monthly content marketing strategy that we do before writing your first blog post, Ipsum
+                        available .
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </section>
+    <!-- END FAQ -->
+
+    <!-- START TESTIMONIALS -->
+    <section class="testimonials">
+        <div class="container">
+
+            <div class="title">
+                <p class="sub-title">Testimonials</p>
+                <h2>What our Client Say</h2>
+                <p class="desc">
+                    There are many variations of passages of Lorem Ipsum available but the majority have suffered
+                    alteration in some form.
+                </p>
+            </div>
+
+            <div class="content">
+
+                <div class="box">
+
+                    <div class="stars">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <p class="text">
+                        “Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're
+                        building a community.
+                    </p>
+
+                    <div class="user">
+                        <img src="images/testimonials/author-01.png" alt="">
+                        <div class="inner-wrapper">
+                            <h3 class="name">Sabo Masties</h3>
+                            <p>Founder @ Role</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="box">
+
+                    <div class="stars">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <p class="text">
+                        “Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're
+                        building a community.
+                    </p>
+
+                    <div class="user">
+                        <img src="images/testimonials/author-02.png" alt="">
+                        <div class="inner-wrapper">
+                            <h3 class="name">Margin Gesmu</h3>
+                            <p>Founder @ UI Hunter</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="box">
+
+                    <div class="stars">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <p class="text">
+                        “Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're
+                        building a community.
+                    </p>
+
+                    <div class="user">
+                        <img src="images/testimonials/author-01.png" alt="">
+                        <div class="inner-wrapper">
+                            <h3 class="name">
+                                William Smith</h3>
+                            <p>Founder @ Trorex</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- END TESTIMONIALS -->
+
+    <!-- START CLIENTS -->
+    <section class="clients">
+        <div class="container">
+
+            <h4>Some Of Our Clients</h4>
+
+            <div class="content">
+                <img src="images/brands/ayroui.svg" alt="">
+                <img src="images/brands/graygrids.svg" alt="">
+                <img src="images/brands/lineicons.svg" alt="">
+                <img src="images/brands/tailgrids.svg" alt="">
+                <img src="images/brands/uideck.svg" alt="">
+            </div>
+
+        </div>
+    </section>
+    <!-- END CLIENTS -->
+
+    <!-- START TEAM -->
+    <section class="team">
+        <div class="container">
+
+            <div class="title">
+                <p class="sub-title">Our Team</p>
+                <h2>Meet Our Team</h2>
+                <p class="desc">
+                    There are many variations of passages of Lorem Ipsum available but the majority have suffered
+                    alteration in some form.
+                </p>
+            </div>
+
+            <div class="content">
+
+                <div class="member">
+                    <img src="images/team/team-01.png" alt="">
+                    <h4>Adveen Desuza</h4>
+                    <p>UI Designer</p>
+
+                    <div class="social">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <ion-icon name="logo-twitter"></ion-icon>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="member">
+                    <img src="images/team/team-02.png" alt="">
+                    <h4>Jezmin uniya</h4>
+                    <p>Product Designer</p>
+
+                    <div class="social">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <ion-icon name="logo-twitter"></ion-icon>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="member">
+                    <img src="images/team/team-03.png" alt="">
+                    <h4>Andrieo Gloree</h4>
+                    <p>App Developer</p>
+
+                    <div class="social">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <ion-icon name="logo-twitter"></ion-icon>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="member">
+                    <img src="images/team/team-01.png" alt="">
+                    <h4>Jackie Sanders</h4>
+                    <p>Content Writer</p>
+
+                    <div class="social">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <ion-icon name="logo-twitter"></ion-icon>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </section>
+    <!-- END TEAM -->
+
+    <!-- START CONTACT -->
+    <section class="contact">
+
+
+        <div class="box">
+            <div class="container">
+
+                <div class="inner-wrapper">
+                    <h4>CONTACT US</h4>
+                    <p class="big">Let's talk about
+                        Love to hear from you!</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="box">
+            <div class="container">
+
+                <div class="inner-wrapper">
+                    <div class="sub-box">
+
+                        <ion-icon name="navigate-outline"></ion-icon>
+                        <div class="text">
+                            <h6>Our Location</h6>
+                            <p>
+                                401 Broadway, 24th Floor, Orchard Cloud View, London
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="sub-box">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <div class="text">
+                            <h6>How can we help you?</h6>
+                            <p>
+                                info@yourdomain.com <br> contact@yourdomain.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <form class="contact-form">
+            <h5>Send us a Message</h5>
+
+            <label for="name">
+                <p>Full Name*</p>
+                <input type="text" id="name" placeholder="Marko Denis">
+            </label>
+
+            <label for="email">
+                <p>Email*</p>
+                <input type="email" id='email' placeholder="example@yourmail.com">
+            </label>
+
+            <label for="phone">
+                <p>Phone*</p>
+                <input type="text" id="phone" placeholder="+885 1254 5211 522">
+            </label>
+
+            <label for="message">
+                <p>message*</p>
+                <input type="text" id="message" placeholder="type your message here">
+            </label>
+
+            <button class="main-btn" type="submit">Send Message</button>
+
+
+        </form>
+
+    </section>
+    <!-- END CONTACT -->
+
+    <!-- START FOOTER -->
+    <footer>
+        <div class="container">
+
+            <div class="content">
+                <div class="box">
+                    <img src="./images/logo/logo-white.svg" alt="">
+                    <p>
+                        We create digital experiences for brands and companies by using technology.
+                    </p>
+                    <div class="social">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        <ion-icon name="logo-twitter"></ion-icon>
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="box">
+
+                    <h4>About Us</h4>
+
+                    <ul>
+                        <li>Home</li>
+                        <li>Features</li>
+                        <li>About</li>
+                        <li>Testimonial</li>
+                    </ul>
+
+                </div>
+
+                <div class="box">
+
+                    <h4>Features</h4>
+
+                    <ul>
+                        <li>How it works</li>
+                        <li>Privacy policy</li>
+                        <li>Terms of Service</li>
+                        <li>Refund policy</li>
+                    </ul>
+
+                </div>
+
+
+                <div class="box">
+
+                    <h4>Our Products</h4>
+
+                    <ul>
+                        <li>LineIcons</li>
+                        <li>Ecommerce HTML</li>
+                        <li>Ayro UI</li>
+                        <li>PlainAdmin</li>
+                    </ul>
+
+                </div>
+
+                <div class="box">
+
+                    <h4>Partners</h4>
+
+                    <ul class='small-grid'>
+                        <li><a href="https://tailgrids.com/"><img src="./images/footer/brands/tailgrids.svg" alt=""></a>
+                        </li>
+                        <li><a href="https://ayroui.com/"><img src="./images/footer/brands/ayroui.svg" alt=""></a></li>
+                        <li><a href="https://ecommercehtml.com/"><img src="./images/footer/brands/ecommerce-html.svg"
+                                    alt=""></a></li>
+                        <li><a href="https://graygrids.com/"><img src="./images/footer/brands/graygrids.svg" alt=""></a>
+                        </li>
+                        <li><a href="https://lineicons.com/"><img src="./images/footer/brands/lineicons.svg" alt=""></a>
+                        </li>
+                        <li><a href="https://uideck.com/"><img src="./images/footer/brands/uideck.svg" alt=""></a></li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+
+    <!-- START CREDITS -->
+    <div class="credits">
+        <div class="container">
+
+            <ul>
+                <li>Privacy policy</li>
+                <li>Legal notice</li>
+                <li>Terms of service</li>
+            </ul>
+            <p>Designed and Developed by <a href="https://tailgrids.com/">TailGrids and UIdeck</a></p>
+
+        </div>
+    </div>
+    <!-- END CREDITS -->
+
+
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="home.js" type='module'></script>
+
+
+</body>
+
+</html>
